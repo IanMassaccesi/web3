@@ -84,8 +84,9 @@ nav a:hover{
     margin-bottom: 5%;
 }
 .sec2 img{
-    border: 2px  outset #Fc697b ;
+    /* border: 2px  outset #Fc697b ; */
     border-radius: 10px;
+    box-shadow: 0px 0px 10px #f53a50;
 }
 .sec2 h1{
     font-size: 4rem;
@@ -210,6 +211,7 @@ nav a:hover{
 /* SECCION 5 */
 .sec5{
     display: flex;
+    justify-content: space-evenly;
 }
 .izq{
     display: flex;
@@ -219,62 +221,69 @@ nav a:hover{
     max-width: 50%;
     margin-top: 10vh;
 }
-.der{
-    margin-top: 12vh;
-    
-}
-.caja1,.caja2,.caja3{
-    border: 2px solid black;
-    margin-bottom: 20%;
-    background-color: white;
-    height: 15%;
-    width: 100%;
-    border-radius: 7px;
-    margin-left: 15%;
-}
-/* .caja2{
-    border: 2px solid black;
-    background-color: white;
-    height: 13%;
-    width: 120%;
-    margin-bottom: 20%;
-    margin-top: 35%;
-}
-.caja3{
-    border: 2px solid black;
-    margin-bottom: 20%;
-    margin-top: 35%;
-    background-color: white;
-    height: 13%;
-    width: 120%;
-} */
+
 .izq p{
     font-size: 1.4rem;
     line-height: 25px;
     display: flex;
-    align-items: flex-start;
-    max-width: 50%;
-    margin-top: 4%;
-    margin-left: 19%;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    margin-top: 15%;
+    margin-left: 5%;
 }
 .sec5 h1{
     color: #f53a50;
     font-size: 5rem;
 }
-
+.sec5 h2{
+    margin-bottom: 3%;
+}
+.der{
+    margin-top: 12vh;
+    
+}
+.caja1,.caja2,.caja3{
+    
+    margin-bottom: 20%;
+    background-color: white;
+    height: 17%;
+    width: 30rem;
+    border-radius: 7px;
+    margin-left: 15%;
+    box-shadow: 0px 0px 9px white, 0px 0px 5px #f53a50;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.sec5 img{
+    position: absolute;
+    border-radius: 5px;
+    left: 63%;
+}
 .bc{
     position: absolute;
     z-index: -3;
     background-color: rgb(252,105,123);
     background: linear-gradient(137deg, rgba(252,105,123,1) 36%, rgba(194,29,95,1) 80%);
-    height: 450px;
-    width: 250px;
-    border-radius:0 0 100px 0;
-    left:75%;
+    height: 68vh;
+    width: 25vw;
+    border-radius:0 0 300px 0;
+    left: 70%;
+    z-index: -1;
 }
 /* SECCION 5 */
 
+
+/* SECCION 6 */
+
+/* SECCION 6 */
+
 .sec6{
+    position: relative;
+    z-index: -2;
+    display: flex;
     background-color: rgb(255, 244, 246) 
 }
 
