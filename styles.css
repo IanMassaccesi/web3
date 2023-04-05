@@ -410,13 +410,13 @@ b{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: 40%;
 }
 .sec9 form{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 100vh;
+    height: 50%;
     padding-top: 3%;
     margin-right: 5%;
 }
@@ -501,7 +501,7 @@ b{
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
-    margin: 15% 35%;
+    margin: 20% 35%;
     box-shadow: 0 0 5px black;
 }
 .btnsub:hover{
@@ -529,7 +529,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 10%;
+    margin-top: 1%;
     height: 15vh;
     background-color: rgb(194,29,95);
     background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
@@ -584,8 +584,11 @@ footer img{
     }
 }
 
-
-
+@media(max-width: 1200px){
+    .perro{
+        display: none;
+    }
+}
 ::-webkit-scrollbar {
     display: none;
 }
