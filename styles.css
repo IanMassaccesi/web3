@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
 
 
  /* globales */
@@ -14,10 +14,16 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
     
 }
-nav a{
+nav{
     font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 25px;
+}
+nav a{ 
     margin-left:20px;
 }
 nav a:hover{
@@ -25,3 +31,253 @@ nav a:hover{
     color: #Fc697b;
 }
 
+/* SECCION 1 */
+
+.sec1{
+    background-image: url(sc1.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+} 
+
+.sec1 h1,.sec1 p,.sec1 button{
+    color: white;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+.sec1 h1{
+    font-size: 5rem;
+}
+.sec1 p{
+    font-size: 1.8rem;
+    line-height: 27px;
+    margin-top: 3%;
+    font-weight: 200;
+}
+
+.sec1 button{
+    color: #f53a50;
+    background-color: white;
+    padding: 20px 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top:4%;
+
+}
+.sec1 button:hover{
+    transition: .3s;
+    background-color:#f53a50 ;
+    color: white;
+}
+
+/* SECCION 1 */
+
+/* Seccion 2 */
+
+.sec2 {
+    margin-bottom: 5%;
+}
+.sec2 img{
+    border: 2px  outset #Fc697b ;
+    border-radius: 10px;
+}
+.sec2 h1{
+    font-size: 4rem;
+    padding: 4% 0;
+    display: flex;
+    justify-content: center;
+    color: #f53a50;
+}
+.sec2 h2{
+    color: #f53a50;
+}
+.sec2 p{
+    color: black;
+}
+.sec2 button{
+    color: white;
+    background-color: #f53a50;
+    width: 17rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top:4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 button:hover{
+    transition: .3s;
+    color: #f53a50;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    
+}
+.items h2{
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.items p{
+    font-size: 1.3rem;
+    line-height: 27px;
+    color: black;
+    width: 90%;
+    margin-bottom: 15%;
+}
+.item1{
+    width: 25rem;
+}
+.item2{
+    width: 25rem;
+}
+.item3{
+    width: 25rem;
+}
+/* Seccion 2 */
+
+/* SECCION 3 */
+.sec3{
+    background-color: rgb(194,29,95);
+    background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec3 h1{
+    
+    color: white;
+    font-size: 4.5rem;
+    font-weight:700;
+}
+.sec3 p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 27px;
+    margin: 1% 0;
+}
+
+.sec3 button{
+    color: #f53a50;
+    background-color: white;
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top:1%;
+
+}
+.sec3 button:hover{
+    transition: .3s;
+    background-color:#f53a50 ;
+    color: white;
+}
+/* SECCION 3 */
+/* SECCION 4 */
+.sec4{
+    background-image: url(sc4.png);
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.sec4 h1{
+    font-size: 6rem;
+    line-height: 9rem;
+    color: white;
+    margin-left: 60%;
+}
+/* SECCION 4 */
+/* SECCION 5 */
+.sec5{
+    display: flex;
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-top: 10vh;
+}
+.der{
+    margin-top: 12vh;
+    
+}
+.caja1,.caja2,.caja3{
+    border: 2px solid black;
+    margin-bottom: 20%;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    border-radius: 7px;
+    margin-left: 15%;
+}
+/* .caja2{
+    border: 2px solid black;
+    background-color: white;
+    height: 13%;
+    width: 120%;
+    margin-bottom: 20%;
+    margin-top: 35%;
+}
+.caja3{
+    border: 2px solid black;
+    margin-bottom: 20%;
+    margin-top: 35%;
+    background-color: white;
+    height: 13%;
+    width: 120%;
+} */
+.izq p{
+    font-size: 1.4rem;
+    line-height: 25px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 50%;
+    margin-top: 4%;
+    margin-left: 19%;
+}
+.sec5 h1{
+    color: #f53a50;
+    font-size: 5rem;
+}
+
+.bc{
+    position: absolute;
+    z-index: -3;
+    background-color: rgb(252,105,123);
+    background: linear-gradient(137deg, rgba(252,105,123,1) 36%, rgba(194,29,95,1) 80%);
+    height: 450px;
+    width: 250px;
+    border-radius:0 0 100px 0;
+    left:75%;
+}
+/* SECCION 5 */
+
+.sec6{
+    background-color: rgb(255, 244, 246) 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
