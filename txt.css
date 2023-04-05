@@ -24,3 +24,21 @@ colores
     height: 13%;
     width: 120%;
 } */
+/* .sec3 button{
+    color: #f53a50;
+    background-color: white;
+    height: 5rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-top:1%;
+
+}
+.sec3 button:hover{
+    transition: .3s;
+    background-color:#f53a50 ;
+    color: white;
+} */
