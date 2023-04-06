@@ -536,10 +536,12 @@ footer{
     color: white;
     font-size: 4rem;
     display: inline;
-    margin-bottom: 40%;
+    margin-bottom: 30%;
+    cursor: pointer;
 }
 .icons{
-    margin-left: 50%;
+    margin-top: 4%;
+    margin-left: 5%;
     display: inline-flex;
 }
 .cr p{
@@ -629,6 +631,11 @@ footer{
         align-items: center;
         justify-content: center;
         margin-top: 20%;
+    }
+    .sec7{
+        grid-template-columns: 100%;
+        text-align: center;
+        margin-left:30%;
     }
 
 }
