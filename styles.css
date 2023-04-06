@@ -518,17 +518,13 @@ textarea{
 /* FOOTER */
 footer{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
     margin-top: 1%;
     height: 15vh;
     background-color: rgb(194,29,95);
     background: linear-gradient(24deg, rgba(194,29,95,1) 39%, rgba(245,58,80,1) 74%, rgba(252,105,123,1) 92%);
 }
-footer img{
-    margin-right: 6%;
-    margin-top: 2.3%;
-}
+
 .f1{
     display: flex;
     align-content: flex-end;
@@ -538,10 +534,13 @@ footer img{
 }
 .icons i{ 
     color: white;
-    font-size: 3rem;
-    margin-bottom: 45%;
-    margin-right: 5px;
-    margin-left: 5px;
+    font-size: 4rem;
+    display: inline;
+    margin-bottom: 40%;
+}
+.icons{
+    margin-left: 50%;
+    display: inline-flex;
 }
 .cr p{
     font-size: 1.8rem;
