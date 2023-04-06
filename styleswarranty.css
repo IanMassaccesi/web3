@@ -92,21 +92,43 @@ input::placeholder{
 .btnsub{
     color: white;
     background-color:#f53a50;
-    height: 5.9rem;
-    width: 3rem;
+    height: 3.5rem;
+    width: 18rem;
     font-size: 1.3rem;
     font-weight: 600;
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
-    box-shadow: 0 0 51px black;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 20%;
-    right: 50%;
+    margin-top: 20%;
+    left: 50%;
 }
 .btnsub:hover{
     transition: .3s;
     background-color: #c94970;
     color: white;
     box-shadow: 0px 0px 35px #c21d5f, 0px 0px 15px #f53a50;
+}
+
+@media (max-width:800px){
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .g2 input,.g1 input,.g1 select{
+        width: 70vw;
+        height: 8vh;
+    }
+    .btnsub{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+        position: relative;
+        left: 15%;
+    }
 }
